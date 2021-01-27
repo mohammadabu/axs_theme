@@ -192,3 +192,6 @@
 	.o_field_widget .o_field_many2one .o_external_button {
 		color:red;
 	}
+	li.o_m2o_dropdown_option .option[text="Search More..."]{
+		color:red;
+	}
