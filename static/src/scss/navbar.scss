@@ -20,7 +20,7 @@
 *
 **********************************************************************************/
 
-@include media-breakpoint-down(sm) {
+// @include media-breakpoint-down(sm) {
     .o_main_navbar {
 		display: flex;
 		> .dropdown {
@@ -35,11 +35,11 @@
 		.o_menu_systray {
 		    margin-left: auto;
 		}
-		.o_debug_manager {
-			.dropdown-menu.show {
-				@include mk-full-screen-sections();
-			}
-		}
+		// .o_debug_manager {
+		// 	.dropdown-menu.show {
+		// 		@include mk-full-screen-sections();
+		// 	}
+		// }
 		.o_user_menu, .o_switch_company_menu {
 			> .dropdown-toggle {
 				padding: 0 10px;
@@ -48,9 +48,9 @@
 		            content: normal;
 		        }
 			}
-			.dropdown-menu.show {
-				@include mk-full-screen-sections();
-			}
+			// .dropdown-menu.show {
+			// 	@include mk-full-screen-sections();
+			// }
 		}
 		.o_user_menu img {
 			margin-bottom: 3px;
@@ -63,7 +63,7 @@
 		    padding: 0 $o-horizontal-padding;
 		}
 		.o_mail_systray_dropdown.show {
-		    @include mk-full-screen-sections();
+		    // @include mk-full-screen-sections();
 		    .o_mail_preview_image {
 		        align-items: center;
 		        display: flex;
@@ -81,7 +81,7 @@
 		    }
 		}
 		.o_menu_sections.show {
-		    @include mk-full-screen-sections();
+		    // @include mk-full-screen-sections();
 		    background: $mk-brand-gradient;
             .dropdown-toggle, .dropdown-item {
 			    padding: 0;
@@ -109,18 +109,18 @@
 				    position: static;
 				    overflow: visible;
 		        }
-			    @for $index from 1 through 5 {
-	                .o_menu_entry_lvl_#{$index} {
-	                    margin-left: ($index - 1) * 1.5rem;
-	                }
-	            }
-	           	@for $index from 2 through 5 {
-	                .o_menu_header_lvl_#{$index} {
-	                    margin-left: ($index - 1) * 1.5rem;
-	                }
-	            }
+			    // @for $index from 1 through 5 {
+	            //     .o_menu_entry_lvl_#{$index} {
+	            //         margin-left: ($index - 1) * 1.5rem;
+	            //     }
+	            // }
+	           	// @for $index from 2 through 5 {
+	            //     .o_menu_header_lvl_#{$index} {
+	            //         margin-left: ($index - 1) * 1.5rem;
+	            //     }
+	            // }
 		   	}
 		    
 		}
     }
-}
+// }
