@@ -123,9 +123,9 @@
 	a:hover{
 		color: #7BA9D9 ;
 	}
-	.o_form_view .o_form_uri{
+	.o_form_view .o_form_uri > span:first-child{
 		color: #5584B2 ;
 	}
-	.o_form_view .o_form_uri:hover{
+	.o_form_view .o_form_uri > span:first-child:hover{
 		color: #7BA9D9 ;
 	}
