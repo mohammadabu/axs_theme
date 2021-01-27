@@ -185,3 +185,7 @@
 	.o_form_view .o_notebook > .o_notebook_headers > .nav.nav-tabs > .nav-item > .nav-link:hover, .o_form_view .o_notebook > .o_notebook_headers > .nav.nav-tabs > .nav-item > .nav-link:focus, .o_form_view .o_notebook > .o_notebook_headers > .nav.nav-tabs > .nav-item > .nav-link:active{
 		color: #7BA9D9;
 	}
+	.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+		background-color: #7BA9D9;
+    	border-color: #7BA9D9;
+	}
