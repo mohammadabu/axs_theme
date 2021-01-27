@@ -60,7 +60,8 @@
 		}
 		.o-menu-toggle {
 		    cursor: pointer;
-		    padding: 0 $o-horizontal-padding;
+			// padding: 0 $o-horizontal-padding;
+			padding: 0 10px;
 		}
 		.o_mail_systray_dropdown.show {
 		    // @include mk-full-screen-sections();
@@ -82,7 +83,8 @@
 		}
 		.o_menu_sections.show {
 		    // @include mk-full-screen-sections();
-		    background: $mk-brand-gradient;
+			// background: $mk-brand-gradient;
+			background: red;
             .dropdown-toggle, .dropdown-item {
 			    padding: 0;
 		    	color: white;
