@@ -23,6 +23,7 @@
 // @include media-breakpoint-down(sm) {
     .o_main_navbar {
 		background-color: #2F648F;
+		border-bottom: 1px solid #2F648F;
 		ul > li > a:hover, .o_main_navbar > ul > li > label:hover{
 			background-color: #7BA9D9;
 		}
