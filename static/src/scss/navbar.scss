@@ -151,3 +151,7 @@
 	.btn-link:hover{
 		color: #00264B;
 	}
+	.custom-control-input:checked ~ .custom-control-label::before{
+		border-color: #5584B2;
+		background-color: #5584B2;
+	}
