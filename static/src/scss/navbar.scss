@@ -23,7 +23,9 @@
 // @include media-breakpoint-down(sm) {
     .o_main_navbar {
 		background-color: #2F648F;
-		
+		ul > li > a:hover, .o_main_navbar > ul > li > label:hover{
+			background-color: #2F648F;
+		}
 		
 		// .o_user_menu, .o_switch_company_menu {
 		// 	> .dropdown-toggle {
