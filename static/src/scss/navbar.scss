@@ -176,3 +176,9 @@
 	.table-striped tbody tr:nth-of-type(odd){
 		background-color: #F0FAFF;
 	}
+	.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled{
+		color: #2F648F;
+	}
+	.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(.disabled):hover, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(.disabled):active, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(.disabled):focus{
+		color: #7BA9D9;
+	}
