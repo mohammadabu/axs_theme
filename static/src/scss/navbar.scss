@@ -42,12 +42,6 @@
 		.o_mail_systray_item .o_mail_systray_dropdown .o_mail_systray_dropdown_top .o_filter_button:hover, .o_mail_systray_item .o_mail_systray_dropdown .o_mail_systray_dropdown_top .o_filter_button.active{
 			color: #7BA9D9;
 		}
-		.btn-link{
-			color: #5584B2 ;
-		}
-		.btn-link:hover{
-			color: #00264B;
-		}
 		.o_mail_preview.o_preview_unread .o_preview_info .o_preview_title .o_last_message_date{
 			color: #5584B2 ;
 		}
@@ -150,4 +144,10 @@
 	.o_field_widget.o_field_copy{
 		border: 1px solid #5584B2;
 		color: #5584B2;
+	}
+	.btn-link{
+		color: #5584B2 ;
+	}
+	.btn-link:hover{
+		color: #00264B;
 	}
